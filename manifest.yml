@@ -1,0 +1,15 @@
+---
+
+applications:
+
+- name: com.premierinc.spring
+
+  memory: 1024M
+
+  host: com-premierinc-spring-shree
+
+  path: target/sboot-liquibase-demo-0.0.1-SNAPSHOT.jar
+
+  services:
+
+  - postgres1

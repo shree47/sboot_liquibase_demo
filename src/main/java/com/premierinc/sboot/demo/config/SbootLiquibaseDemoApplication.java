@@ -20,7 +20,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.premierinc.sboot.demo")
 @EnableAutoConfiguration(exclude = {JndiConnectionFactoryAutoConfiguration.class,DataSourceAutoConfiguration.class,
 		HibernateJpaAutoConfiguration.class,JpaRepositoriesAutoConfiguration.class,DataSourceTransactionManagerAutoConfiguration.class})
-public class SbootLiquibaseDemoApplication {
+public class SbootLiquibaseDemoApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbootLiquibaseDemoApplication.class, args);

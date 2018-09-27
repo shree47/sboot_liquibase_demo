@@ -4,7 +4,7 @@ applications:
 
 - name: com.premierinc.spring
 
-  memory: 1024M
+  memory: 2048M
 
   host: com-premierinc-spring-shree
 

@@ -24,7 +24,7 @@ import java.util.Properties;
         transactionManagerRef = "transactionManager"
 )
 public class PersistenceConfig {
-    @Autowired
+    /*@Autowired
     private Environment env;
 
     @Bean
@@ -71,5 +71,5 @@ public class PersistenceConfig {
         JpaTransactionManager transactionManager = new JpaTransactionManager();
         transactionManager.setEntityManagerFactory(entityManager().getObject());
         return transactionManager;
-    }
+    }*/
 }

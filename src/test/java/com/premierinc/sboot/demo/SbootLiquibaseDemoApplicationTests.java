@@ -7,8 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 ///////////////////////////////new addition
-@ContextConfiguration
-//@SpringBootTest
+@SpringBootTest
 public class SbootLiquibaseDemoApplicationTests {
 
 	@Test

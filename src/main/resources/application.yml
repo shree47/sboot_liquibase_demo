@@ -2,7 +2,7 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     username: zDqboaSLXivzPnxp
-    password: "r4nh1SFura9ZzLY-"
+    password: r4nh1SFura9ZzLY-
     url: jdbc:postgresql://10.11.241.46:5432/postgres1
   jpa:
     database: POSTGRESQL

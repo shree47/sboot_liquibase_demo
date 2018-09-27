@@ -1,4 +1,4 @@
-ackage com.premierinc.sboot.demo;
+package com.premierinc.sboot.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

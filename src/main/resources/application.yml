@@ -3,7 +3,7 @@ spring:
     driverClassName: org.postgresql.Driver
     username: zDqboaSLXivzPnxp
     password: "r4nh1SFura9ZzLY-"
-    url: jdbc:postgresql://zDqboaSLXivzPnxp:r4nh1SFura9ZzLY-@10.11.241.46:37627/FsVXWamGCrrkDy-V
+    url: jdbc:postgres://zDqboaSLXivzPnxp:r4nh1SFura9ZzLY-@10.11.241.46:37627/FsVXWamGCrrkDy-V
   jpa:
     database: POSTGRESQL
     show-sql: true

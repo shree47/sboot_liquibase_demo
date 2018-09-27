@@ -68,8 +68,8 @@ public class PersistenceConfig {
     @Primary
     @Bean
     public PlatformTransactionManager transactionManager() {
-     /*   JpaTransactionManager transactionManager = new JpaTransactionManager();
-        transactionManager.setEntityManagerFactory(entityManager().getObject());*/
+       JpaTransactionManager transactionManager = new JpaTransactionManager();
+     /*   transactionManager.setEntityManagerFactory(entityManager().getObject());*/
         return transactionManager;
     }
 }

@@ -24,13 +24,13 @@ import java.util.Properties;
         transactionManagerRef = "transactionManager"
 )
 public class PersistenceConfig {
-    /*@Autowired
+    @Autowired
     private Environment env;
 
     @Bean
     @Primary
     public LocalContainerEntityManagerFactoryBean entityManager() {
-        LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
+       /* LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
         em.setPackagesToScan(new String[] { "com.premierinc.sboot.demo.domain"});
 
@@ -53,7 +53,7 @@ public class PersistenceConfig {
 
         jpaProperties.put("hibernate.hbm2ddl.auto", env.getRequiredProperty("hibernate.hbm2ddl.auto"));
 
-        em.setJpaProperties(jpaProperties);
+        em.setJpaProperties(jpaProperties);*/
 
         return em;
     }
@@ -68,8 +68,8 @@ public class PersistenceConfig {
     @Primary
     @Bean
     public PlatformTransactionManager transactionManager() {
-        JpaTransactionManager transactionManager = new JpaTransactionManager();
-        transactionManager.setEntityManagerFactory(entityManager().getObject());
+     /*   JpaTransactionManager transactionManager = new JpaTransactionManager();
+        transactionManager.setEntityManagerFactory(entityManager().getObject());*/
         return transactionManager;
-    }*/
+    }
 }

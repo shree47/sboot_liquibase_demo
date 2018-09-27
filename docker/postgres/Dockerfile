@@ -1,6 +1,6 @@
-FROM postgres:9.5.3
+#FROM postgres:9.5.3
 # FROM postgres
-MAINTAINER Alan Barrington-Hughes <alan_barrington-hughes@premierinc.com> 
+#MAINTAINER Alan Barrington-Hughes <alan_barrington-hughes@premierinc.com> 
 #ENV DB_NAME sboot_demo
 #ENV DB_USER demo
 #ENV DB_PASS demo_pass

@@ -35,8 +35,8 @@ public class DemoController {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-   // @RequestMapping("/demoPage")
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping("/demoPage")
+    //@RequestMapping(method = RequestMethod.GET)
     public String addUser(@Valid UserInfoDTO userInfoDTO, BindingResult bindingResult, Model model) {
 
         logger.info("UserInfo submitted: " + userInfoDTO);

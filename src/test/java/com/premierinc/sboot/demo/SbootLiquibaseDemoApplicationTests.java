@@ -1,5 +1,4 @@
-
-package com.premierinc.sboot.demo;
+ackage com.premierinc.sboot.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,9 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.context.annotation.Configuration;
 
 
-//@RunWith(SpringRunner.class)
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration
+@RunWith(SpringRunner.class)
 @SpringBootTest
 public class SbootLiquibaseDemoApplicationTests {
 

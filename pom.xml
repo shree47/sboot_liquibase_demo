@@ -113,7 +113,7 @@
 		</dependency>
 
 
-		<!-- <dependency>
+		 <dependency>
 
 			<groupId>org.postgresql</groupId>
 
@@ -121,7 +121,7 @@
 
 			<scope>runtime</scope>
 
-		</dependency>-->
+		</dependency>
 		
 
 

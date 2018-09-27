@@ -30,8 +30,8 @@ public class PersistenceConfig {
     @Bean
     @Primary
     public LocalContainerEntityManagerFactoryBean entityManager() {
-       /* LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-        em.setDataSource(dataSource());
+        LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
+       /* em.setDataSource(dataSource());
         em.setPackagesToScan(new String[] { "com.premierinc.sboot.demo.domain"});
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();

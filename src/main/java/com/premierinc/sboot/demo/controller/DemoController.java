@@ -53,9 +53,7 @@ public class DemoController {
     private static final Logger logger = LoggerFactory.getLogger(DemoController.class);
 
 
-
     @Autowired
-
     AppProperties appProperties;
 
 
@@ -67,7 +65,6 @@ public class DemoController {
     
 
     @Autowired
-
     JdbcTemplate jdbcTemplate;
 
 
@@ -78,7 +75,7 @@ public class DemoController {
 
     public String addUser(@Valid UserInfoDTO userInfoDTO, BindingResult bindingResult, Model model) {
 
-		/*
+		
 
         logger.info("UserInfo submitted: " + userInfoDTO);
 
@@ -118,9 +115,8 @@ public class DemoController {
 
             return "DemoPage";
 
-        }*/
+        }
 
-		return "DemoPage";
     }
 
 }

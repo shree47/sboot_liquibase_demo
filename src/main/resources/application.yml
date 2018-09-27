@@ -1,9 +1,9 @@
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
-    username: demo
-    password: "demo_pass"
-    url: jdbc:postgresql://${SBOOT_DEMO_PG_PORT_5432_TCP_ADDR}:${SBOOT_DEMO_PG_PORT_5432_TCP_PORT}/sboot_demo
+    username: zDqboaSLXivzPnxp
+    password: "r4nh1SFura9ZzLY-"
+    url: jdbc:postgresql://zDqboaSLXivzPnxp:r4nh1SFura9ZzLY-@10.11.241.46:37627/FsVXWamGCrrkDy-V
   jpa:
     database: POSTGRESQL
     show-sql: true

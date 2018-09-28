@@ -50,7 +50,7 @@ import java.util.Properties;
 
 public class PersistenceConfig {
 
-   /* @Autowired
+    @Autowired
 
     private Environment env;
 
@@ -118,7 +118,7 @@ public class PersistenceConfig {
 
 
 
-    @Bean
+    /*@Bean
 
     @Primary
 
@@ -128,7 +128,7 @@ public class PersistenceConfig {
 
         return DataSourceBuilder.create().build();
 
-    }
+    }*/
 
 
 
@@ -144,6 +144,6 @@ public class PersistenceConfig {
 
         return transactionManager;
 
-    }*/
+    }
 
 }

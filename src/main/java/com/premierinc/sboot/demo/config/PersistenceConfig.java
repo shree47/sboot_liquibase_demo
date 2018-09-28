@@ -36,7 +36,7 @@ import java.util.Properties;
 
 
 
-/*@Configuration
+@Configuration
 
 @EnableJpaRepositories(
 
@@ -46,11 +46,11 @@ import java.util.Properties;
 
         transactionManagerRef = "transactionManager"
 
-)*/
+)
 
 public class PersistenceConfig {
 
-    @Autowired
+   /* @Autowired
 
     private Environment env;
 
@@ -144,6 +144,6 @@ public class PersistenceConfig {
 
         return transactionManager;
 
-    }
+    }*/
 
 }

@@ -87,7 +87,6 @@ public class PersistenceConfig {
         jpaProperties.put("hibernate.dialect", env.getRequiredProperty("hibernate.dialect"));
 
 
-
         //If the value of this property is true, Hibernate writes all SQL
 
         //statements to the console.
@@ -97,7 +96,6 @@ public class PersistenceConfig {
 
 
         //If the value of this property is true, Hibernate will format the SQL
-
         //that is written to the console.
 
         jpaProperties.put("hibernate.format_sql",   env.getRequiredProperty("hibernate.format_sql"));
@@ -118,7 +116,7 @@ public class PersistenceConfig {
 
 
 
-    /*@Bean
+    @Bean
 
     @Primary
 
@@ -128,7 +126,7 @@ public class PersistenceConfig {
 
         return DataSourceBuilder.create().build();
 
-    }*/
+    }
 
 
 

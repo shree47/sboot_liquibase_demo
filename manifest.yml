@@ -12,4 +12,4 @@ applications:
 
   services:
 
-  - postgres-service
+  - postgres1

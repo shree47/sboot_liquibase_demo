@@ -16,7 +16,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-
+/*
 @Configuration
 @EnableJpaRepositories(
         basePackages = "com.premierinc.sboot.demo",
@@ -31,7 +31,7 @@ public class PersistenceConfig {
     @Primary
     public LocalContainerEntityManagerFactoryBean entityManager() {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-       /* em.setDataSource(dataSource());
+       em.setDataSource(dataSource());
         em.setPackagesToScan(new String[] { "com.premierinc.sboot.demo.domain"});
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
@@ -53,7 +53,7 @@ public class PersistenceConfig {
 
         jpaProperties.put("hibernate.hbm2ddl.auto", env.getRequiredProperty("hibernate.hbm2ddl.auto"));
 
-        em.setJpaProperties(jpaProperties);*/
+        em.setJpaProperties(jpaProperties);
 
         return em;
     }
@@ -69,7 +69,7 @@ public class PersistenceConfig {
     @Bean
     public PlatformTransactionManager transactionManager() {
        JpaTransactionManager transactionManager = new JpaTransactionManager();
-     /*   transactionManager.setEntityManagerFactory(entityManager().getObject());*/
+        transactionManager.setEntityManagerFactory(entityManager().getObject());
         return transactionManager;
     }
-}
+}*/

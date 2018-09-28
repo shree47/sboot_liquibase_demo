@@ -16,7 +16,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-/*
+
 @Configuration
 @EnableJpaRepositories(
         basePackages = "com.premierinc.sboot.demo",
@@ -72,4 +72,4 @@ public class PersistenceConfig {
         transactionManager.setEntityManagerFactory(entityManager().getObject());
         return transactionManager;
     }
-}*/
+}

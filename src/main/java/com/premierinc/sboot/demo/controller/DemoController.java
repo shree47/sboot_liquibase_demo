@@ -62,11 +62,7 @@ public class DemoController {
 
     UserInfoService userInfoService;
 
-    
-
-    @Autowired
-    JdbcTemplate jdbcTemplate;
-
+   
 
 
     @RequestMapping("/demoPage")

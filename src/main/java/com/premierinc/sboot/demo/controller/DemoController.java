@@ -60,9 +60,9 @@ public class DemoController {
    
 
 
-    @RequestMapping("/demoPage")
+    //@RequestMapping("/demoPage")
 
-    //@RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
 
     public String addUser(@Valid UserInfoDTO userInfoDTO, BindingResult bindingResult, Model model) {
 

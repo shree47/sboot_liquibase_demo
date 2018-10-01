@@ -18,7 +18,7 @@ logging:
 
 server:
   port: 8180
-  contextPath: /SpringIODemo
+  contextPath: 
 
 hibernate:
   dialect: org.hibernate.dialect.PostgreSQLDialect

@@ -3,8 +3,7 @@ applications:
 - name: postgresdemo
 
   memory: 1024M
-  host: com-premierinc-spring-shree
-  path: target/sboot-liquibase-demo-0.0.1-SNAPSHOT.jar
+   path: target/sboot-liquibase-demo-0.0.1-SNAPSHOT.jar
   
   routes:
   - route: com-premierinc-spring-shree.cfapps.eu10.hana.ondemand.com

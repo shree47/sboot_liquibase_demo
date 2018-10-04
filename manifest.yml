@@ -1,15 +1,14 @@
----
-
 applications:
-
-- name: com.premierinc.spring
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+- name: postgresdemo
 
   memory: 1024M
-
   host: com-premierinc-spring-shree
-
   path: target/sboot-liquibase-demo-0.0.1-SNAPSHOT.jar
+  
+  routes:
+  - route: com-premierinc-spring-shree.cfapps.eu10.hana.ondemand.com
+  - route: com-premierinc-spring-shree1.cfapps.eu10.hana.ondemand.com
 
   services:
-
   - postgres1
